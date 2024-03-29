@@ -83,9 +83,11 @@ function removeCartItem(index) {
 
 // Initialize the cart count on page load
 window.onload = function() {
+    console.log("Window loaded");
     const cartCount = localStorage.getItem('cartCount') || 0;
     document.getElementById('cart-count').textContent = cartCount;
-    if (window.location.pathname === '/cart.html') {
+    if (window.location.pathname === '/DesignWorks/cart.html') {
+        console.log("Calling displayCartItems()");
         displayCartItems();
     }
 };
