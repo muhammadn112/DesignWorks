@@ -49,7 +49,7 @@ function displayCartItems() {
         cartItemElement.classList.add('cart-item');
         cartItemElement.innerHTML = `
             <div class="cart-item-details">
-                <img src="images/${item.image}" alt="${item.name}">
+                <img src="./images/${item.image}" alt="${item.name}">
                 <h2>${item.name}</h2>
                 <p>${item.description}</p>
                 <p>$${item.price}</p>
