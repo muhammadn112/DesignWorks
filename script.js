@@ -84,3 +84,4 @@ window.onload = function() {
         displayCartItems();
     }
 };
+
