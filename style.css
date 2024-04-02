@@ -434,3 +434,18 @@ body {
   left: 10px;
   transform: rotate(225deg); 
 }
+
+
+
+.slide-content {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  color: white; 
+  font-size: 20px; 
+  font-weight: bold; 
+}
